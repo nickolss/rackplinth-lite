@@ -1,0 +1,11 @@
+node            = "pve"
+template_id     = 9000
+gateway         = "192.168.10.1"
+# datastore     = "local-zfs"   # if Proxmox was installed on ZFS
+# bridge        = "vmbr0"
+ssh_public_keys = ["ssh-ed25519 AAAA... you@laptop"]
+
+vms = {
+  app-1 = { ipv4_cidr = "192.168.10.31/24" }
+  db-1  = { ipv4_cidr = "192.168.10.32/24", memory_mb = 4096, disk_gb = 40 }
+}
