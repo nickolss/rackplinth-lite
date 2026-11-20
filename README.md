@@ -52,7 +52,7 @@ To add a VM, add a line to `vms`. To remove one, delete its line and apply again
 
 [Rackplinth](https://rackplinth.nickolasmaia.com.br) adds Ansible roles for SSH hardening, firewall and fail2ban, k3s with secrets encryption, Docker and encrypted restic backups, plus a step-by-step guide tested end to end.
 
-Launch price until November 30: [US$ 29 instead of US$ 39](https://nickolasmaia.gumroad.com/l/rackplinth/LAUNCH) (code `LAUNCH`, applied automatically).
+Launch price until December 31: [US$ 29 instead of US$ 39](https://nickolasmaia.gumroad.com/l/rackplinth/LAUNCH) (code `LAUNCH`, applied automatically).
 
 ## License
 
